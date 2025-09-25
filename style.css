@@ -1,7 +1,7 @@
 style.css
 
 body {
-  background-image: img("background.jpg") center center / cover no-repeat;
+  background-image: url("background.jpg") center center / cover no-repeat;
   background-attachment: scroll
   justify-content: center;
 }
