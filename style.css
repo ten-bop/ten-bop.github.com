@@ -3,7 +3,7 @@ style.css
 body {
   margin: 0;
   min-height: 100vh;
-  background: url("Untitled_Artwork (6).png") center center / cover no-repeat;
+  background: img("Untitled_Artwork (6).png") center center / cover no-repeat;
   background-attachment: scroll
   justify-content: center;
   padding: 2rem;
@@ -19,7 +19,12 @@ body {
 
 .canvas a {
   position: absolute;
-  max-width: 12%;
+ display: block;
+  transform: translate(-50%, -50%);
+  transition: transform 220ms ease, filter 220ms ease;
+  will-change: transform;
+  text-decoration: none;
+}
 }
 .canvas a:hover img {
   transform: scale(1.1)}
