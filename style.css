@@ -1,10 +1,9 @@
 style.css
 
 body {
-  background-image: url("Untitled_Artwork (6).png") center center / cover no-repeat;
+  background-image: url("background.png.png") center center / cover no-repeat;
   background-attachment: scroll
   justify-content: center;
-  padding: 2rem;
 }
 .canvas {
   position: absolute;
