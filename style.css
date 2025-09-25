@@ -16,7 +16,7 @@ body {
 }
 
 .canvas a {
-  position: absolute;
+  position: relative;
   display: block;
   transform: translate(-50%, -50%);
   transition: transform 220ms ease, filter 220ms ease;
@@ -45,10 +45,3 @@ body {
 .cypress { left: 31.73%; top: 61.27%; width: 6%; }
 .pear { left: 32.94%; top: 54.50%; width: 6%; }
 .boxwood { left: 31.30%; top: 39.84%; width: 6%; }
-
-/* small-screen tweak */
-@media (max-width: 640px) {
-  .canvas { max-width: 90vw; }
-  .iris { width: 12%; }
-  .ponyfoot, .pecan, .fig, .asparagus, .orchid, .aster, .cypress, .pear, .boxwood { width: 9%; }
-}
