@@ -17,25 +17,21 @@ body {
   overflow: visible;
 }
 
-/* anchors are positioned and centered on the (left,top) point */
 .canvas a {
   position: absolute;
   display: block;
-  transform: translate(-50%, -50%); /* <-- centers the element on the coordinate */
+  transform: translate(-50%, -50%);
   transition: transform 220ms ease, filter 220ms ease;
   will-change: transform;
   text-decoration: none;
 }
-
-/* make the image fill the anchor */
 .canvas a img {
   width: 100%;
   height: auto;
   display: block;
-  pointer-events: none; /* pointer on the anchor, not the image */
+  pointer-events: none; 
 }
 
-/* hover effect */
 .canvas a:hover {
   transform: translate(-50%, -50%) scale(1.06);
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.25));
