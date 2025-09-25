@@ -23,13 +23,63 @@ body {
 }
 .canvas a:hover img {
   transform: scale(1.1)}
-.iris { left: 20.6%; top: 31%; }
-.ponyfoot { left: 32%; top: 62.8%; }
-.pecan { left: 28.6%; top: 54%; }
-.fig { left: 16.3%; top: 54.6%; }
-.asparagus { left: 35.7%; top: 37%; }
-.orchid { left: 27.5%; top: 51.8%; }
-.aster { left: 36.2%; top: 76.4%; }
-.cypress { left: 31.7%; top: 61.2%; }
-.pear { left: 32.9%; top: 54.5%; }
-.boxwood { left: 31.3%; top: 39.8%; }
+.iris {
+  position: absolute;
+  left: 20.6%;
+  top: 31%;
+  width: 8%;
+}
+.ponyfoot {
+  position: absolute;
+  left: 32%;
+  top: 62.9%;
+  width: 6%;
+}
+.pecan {
+  position: absolute;
+  left: 28.6%;
+  top: 53.9%;
+  width: 6%;
+}
+.fig {
+  position: absolute;
+  left: 16.3%;
+  top: 54.6%;
+  width: 6%;
+}
+.asparagus {
+  position: absolute;
+  left: 35.7%;
+  top: 37.1%;
+  width: 6%;
+}
+.orchid {
+  position: absolute;
+  left: 27.6%;
+  top: 51.8%;
+  width: 6%;
+}
+.aster {
+  position: absolute;
+  left: 36.3%;
+  top: 76.4%;
+  width: 6%;
+}
+.cypress {
+  position: absolute;
+  left: 31.7%;
+  top: 61.2%;
+  width: 6%;
+}
+.pear {
+  position: absolute;
+  left: 32.9%;
+  top: 54.5%;
+  width: 6%;
+}
+.boxwood {
+  position: absolute;
+  left: 31.3%;
+  top: 39.8%;
+  width: 6%;
+}
