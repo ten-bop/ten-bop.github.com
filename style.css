@@ -15,7 +15,7 @@ body {
 }
 
 .canvas a {
-  position: relative;
+  position: absolute;
   display: block;
   transform: translate(-50%, -50%);
   transition: transform 220ms ease, filter 220ms ease;
