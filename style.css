@@ -1,12 +1,17 @@
 style.css
 
 body {
+  margin: 0;
+  min-height: 100vh;
   background: url("background.jpg") center center / cover no-repeat;
-  background-attachment: scroll
+  background-attachment: scroll;
+  display: flex;
   justify-content: center;
+  align-items: flex-start;
 }
+
 .canvas {
-  position: absolute;
+  position: relative;
   width: 100%;
   max-width: 1200px;
   aspect-ratio: 2620 / 1830;
@@ -22,11 +27,12 @@ body {
   will-change: transform;
   text-decoration: none;
 }
+
 .canvas a img {
   width: 100%;
   height: auto;
   display: block;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .canvas a:hover {
@@ -34,6 +40,8 @@ body {
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.25));
   z-index: 10;
 }
+
+/* Plant positions */
 .iris { left: 20.57%; top: 31.04%; width: 8%; }
 .ponyfoot { left: 32.02%; top: 62.90%; width: 6%; }
 .pecan { left: 28.63%; top: 53.96%; width: 6%; }
