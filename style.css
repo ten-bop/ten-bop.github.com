@@ -49,3 +49,45 @@ body {
 .fig       { left: 28.57%; top: 65.82%; width: 7.4%; }
 .aster     { left: 36.26%; top: 76.44%; width: 3.3%; }
 .asparagus { left: 35.69%; top: 37.09%; width: 2.5%; }
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  padding: 20px;
+  gap: 40px;
+  align-items: center;
+  margin: auto;
+}
+
+.text {
+  flex: 1;
+}
+
+.text h1 {
+  font-family: "lemonde-journal", serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.text h1 span {
+  font-weight: 400;
+  font-size: 0.7em;
+}
+
+.text p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
