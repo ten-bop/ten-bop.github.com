@@ -39,54 +39,13 @@ body {
   filter: drop-shadow(0 8px 18px rgba(0,0,0,0.25));
   z-index: 10;
 }
-
-.iris { 
-  left: 20.57%; 
-  top: 19.23%; 
-  width: 10%;
-}
-.ponyfoot { 
-  left: 32.02%; 
-  top: 62.90%; 
-  width: 5%;
-}
-.pecan { 
-  left: 28.63%; 
-  top: 53.96%; 
-  width: 7%;
-}
-.fig { 
-  left: 28.58%; 
-  top: 65.82%; 
-  width: 8%;
-}
-.asparagus { 
-  left: 35.69%; 
-  top: 37.11%; 
-  width: 5%;
-}
-.orchid { 
-  left: 27.56%; 
-  top: 51.80%; 
-  width: 7%;
-}
-.aster { 
-  left: 36.26%; 
-  top: 76.44%; 
-  width: 6%;
-}
-.cypress { 
-  left: 31.73%; 
-  top: 61.27%; 
-  width: 5.5%;
-}
-.pear { 
-  left: 32.94%; 
-  top: 54.50%; 
-  width: 6.5%;
-}
-.boxwood { 
-  left: 31.30%; 
-  top: 39.84%; 
-  width: 5.5%;
-}
+.iris      { left: 20.57%; top: 19.23%; width: 26.4%; }
+.boxwood   { left: 31.30%; top: 39.84%; width: 3.6%; }
+.orchid    { left: 27.56%; top: 51.80%; width: 10.9%; }
+.pecan     { left: 28.63%; top: 53.96%; width: 7.8%; }
+.pear      { left: 32.94%; top: 54.50%; width: 3.7%; }
+.cypress   { left: 31.73%; top: 61.27%; width: 2.1%; }
+.ponyfoot  { left: 32.02%; top: 62.90%; width: 4.6%; }
+.fig       { left: 28.57%; top: 65.82%; width: 7.4%; }
+.aster     { left: 36.26%; top: 76.44%; width: 3.3%; }
+.asparagus { left: 35.69%; top: 37.09%; width: 2.5%; }
