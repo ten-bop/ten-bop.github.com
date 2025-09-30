@@ -2,53 +2,97 @@ style.css
 
 body {
   margin: 0;
-  min-height: 100vh;
-  background: url("background.jpg") center center / cover no-repeat;
-  background-attachment: scroll;
+	background-color: blue;
+    background-size: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  min-height: 100vh;
 }
 
-.canvas {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  aspect-ratio: 2620 / 1830;
-  margin: auto;
-  overflow: visible;
+.container{
+	position:relative;
+	width:100vw;
+	height: 100vh;
+	background-color: blue;
 }
 
-.canvas a {
-  position: absolute;
-  display: block;
-  transform: translate(-50%, -50%);
-  transition: transform 220ms ease, filter 220ms ease;
-  will-change: transform;
-  text-decoration: none;
+.div0{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 120px; 
+	top: 180px;
 }
 
-.canvas a img {
-  width: 100%;
-  height: auto;
-  display: block;
-  pointer-events: none;
+.div1{
+	position:absolute;
+	width:700px;
+	height:950px;
+	left: 116px; 
+	top: 208px;
 }
 
-.canvas a:hover {
-  transform: translate(-50%, -50%) scale(1.06);
-  filter: drop-shadow(0 8px 18px rgba(0,0,0,0.25));
-  z-index: 10;
+.div2{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
 }
-
-/* Plant positions */
-.iris { left: 20.57%; top: 31.04%; width: 8%; }
-.ponyfoot { left: 32.02%; top: 62.90%; width: 6%; }
-.pecan { left: 28.63%; top: 53.96%; width: 6%; }
-.fig { left: 16.27%; top: 54.60%; width: 6%; }
-.asparagus { left: 35.69%; top: 37.11%; width: 6%; }
-.orchid { left: 27.56%; top: 51.80%; width: 6%; }
-.aster { left: 36.26%; top: 76.44%; width: 6%; }
-.cypress { left: 31.73%; top: 61.27%; width: 6%; }
-.pear { left: 32.94%; top: 54.50%; width: 6%; }
-.boxwood { left: 31.30%; top: 39.84%; width: 6%; }
+.div3{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div4{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div5{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div6{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div7{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div8{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div9{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
+.div10{
+	position:absolute;
+	width:auto;
+	height:auto;
+	left: 32.02%; 
+	top: 62.90%;
+}
